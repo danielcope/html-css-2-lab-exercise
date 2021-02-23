@@ -49,12 +49,17 @@ header {
     text-transform: uppercase;
 }
 
+.nav-button:hover{
+    text-decoration: underline;
+}
+
 .right-nav {
     display: flex;
     justify-content: flex-end;
     position: relative;
     left: 400px;
 }
+
 
 .nav-shop {
     display: flex;
@@ -68,6 +73,10 @@ header {
     color:white;
     margin:5px;
     cursor: pointer;
+}
+
+.shop-button:hover{
+    text-decoration: underline;
 }
 
 .ham-button {
